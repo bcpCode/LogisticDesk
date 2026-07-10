@@ -1,4 +1,6 @@
-﻿namespace LogisticDesk.DTOs
+﻿using LogisticDesk.Enums;
+
+namespace LogisticDesk.DTOs
 {
     public class LogisticsDtos
     {
@@ -15,5 +17,7 @@ namespace LogisticDesk.DTOs
     {
         public string PlateNumber { get; set; }
         public decimal MaxCapacity { get; set; }
+        public VehicleStatus VehicleStatus { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }
