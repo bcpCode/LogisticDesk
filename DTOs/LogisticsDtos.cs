@@ -2,7 +2,7 @@
 
 namespace LogisticDesk.DTOs
 {
-    public class LogisticsDtos
+    public class ShipmentAddingDto
     {
         public string TrackingNumber { get; set; }
         public decimal Weight { get; set; }

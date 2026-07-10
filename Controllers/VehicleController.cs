@@ -61,7 +61,7 @@ namespace LogisticDesk.Controllers
             return Ok(newVehicle);
         }
         [HttpPut]
-        public async Task<IActionResult> UpdateVehicleById(int id, [FromBody] VehicleAddingDto vehicleDto  )
+        public async Task<IActionResult> UpdateVehicleById(int id, [FromBody] VehicleAddingDto vehicleDto)
         {
             if (id <= 0)
             {
