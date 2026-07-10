@@ -1,6 +1,5 @@
 @LogisticDesk_HostAddress = http://localhost:5065
 
-GET {{LogisticDesk_HostAddress}}/weatherforecast/
-Accept: application/json
+// i use swagger/api so, i don't need to use this endpoint.
 
 ###
